@@ -1,5 +1,12 @@
 project:
   title: "saint_jacut_de_la_mer"
+  type: website
+  pre-render:
+    - './copy_extension.sh'
 
+website:
+  title: "Closeread"
 
-
+format:
+  html:
+    theme: [cosmo]
